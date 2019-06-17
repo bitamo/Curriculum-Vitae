@@ -1,0 +1,269 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.84]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{9cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Bita} % Your first name
+\familyname{Pourmohsenin} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{no. 55 Amirkabir st. Shahrake Golestan}{Tehran, Iran 1494714463}
+\mobile{(+98) 910 2306422}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{b.pourmohsenin@gmail}
+\homepage{https://www.linkedin.com/in/bita-pourmohsenin/}{Linkedin} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+%
+%\clearpage
+%
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+%
+%\lipsum[1-2] % Dummy text
+%\lipsum[4] % Dummy text
+%
+%\makeletterclosing % Print letter signature
+%
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2015--2017}{Master of Computer Science (minored in Bioinformatics)}{Amirkabir University of Technology (Tehran Polytechnic)}{}{\textit{GPA -- 18.45/20}}{}  % Arguments not required can be left empty
+\cventry{2009--2015}{Bachelor of Computer Science}{Amirkabir University of Technology (Tehran Polytechnic)}{}{}{}
+
+\section{Masters Thesis}
+
+\cvitem{Title}{\emph{Phylogenetic Tree Reconstruction based on Clustering}}
+\cvitem{Supervisor}{Dr. Fatemeh Zare-Mirakabad}
+\cvitem{Description}{Proposing a novel method for reconstruction of phylogenetic trees, taking the
+distance matrix as input and performing a top-down hierarchical clustering on it, resulting in a tree topology}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+%\subsection{Vocational}
+
+\cventry{2016--Present}{Research Assistant}{{CBRC: Computational Biology Research Center}}{Amirkabir University of Technology}{}{Conducting research, mentoring Master and Bachelor students, giving consultation on written English (academic papers)}
+
+%------------------------------------------------
+
+\cventry{2017--2018}{Language Consultant (Specialized Translator)}{{Sharif Yar Institute}}{Tehran}{}{Translating and redacting academic papers}
+
+%------------------------------------------------
+
+\cventry{2017}{Teaching Assistant}{Amirkabir University of Technology}{\textbf{T.A of
+Introduction to Formal Languages and Automata}}{Professor: Dr Seyyed Naser Hashemi}{Collaborated on curriculum, held problem solving sessions and graded written works}
+
+
+\cventry{2009--2017}{Private Tutor}{}{English, Mathematics}{}{}
+
+\cventry{2013--2015}{Freelance Graphic and Web Designer}{}{}{}{}
+
+
+%\subsection{Miscellaneous}
+%
+%\cventry{2010--2011}{}{}{}{}{Spent some time finding myself. This was a courageous endeavour that didn't have a job title. It was quite important to my overall development though so I'm adding it to my CV. Also it explains the gap in my otherwise stellar CV.}
+%
+%\cventry{2009--2010}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems. Allowed me to become expert in all forms of martial arts and weaponry.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+\subsection{Programming}
+\cvitem{Expert}{Perl}
+\cvitem{Competent}{C/C++, \textsc{python}, Linux Shell Script (BASH), html/CSS, \LaTeX}
+\cvitem{Familiar}{MongoDB, SQL, R, ASP.net, Matlab, QBasic}
+\cvitem{Libraries}{Tensorflow, Scikit-learn, Pandas, SciPy, Keras, PyTorch}
+
+\subsection{Software}
+\cvitem{Operating Systems}{Linux(Ubuntu), Windows}
+\cvitem{Tools}{Git, MS Office, Adobe Photoshop, Adobe Animate, OpenGL}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Farsi}{native speaker}{}
+\cvitemwithcomment{English}{speak fluently and read/write with high proficiency}{Academic IELTS: 8.0  \\ GRE: Q: 164, V: 155}
+\cvitemwithcomment{German}{speak, read and write with intermediate competence}{B1}
+\cvitemwithcomment{Arabic}{basic knowledge}{}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+\section{Papers}
+
+\cvitem{2019}{ClusTree: A Clustering-based Method for Phylogenetic Tree Reconstruction}{\hspace{2.5cm}}{\textit{To be published, manuscript available upon request}}
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+\section{Talks, Conferences and Workshops}
+
+\subsection{Invited Talks}
+
+\cvitem{Spring 2019}{\textbf{Distance-based reconstruction of evolutionary relationships}, interdisciplinary symposium 'New Approaches to the Science of Human History II', Max Planck Institute for the Science of Human History,
+Jena, Germany}
+\cvitem{Spring 2019}{\textbf{Divisive hierarchical methods for reconstruction of phylogenetic trees}, Department of Bioinformatics, Institute of Microbiology and Genetics, University of Göttingen, Germany}
+
+\subsection{Presented Seminars}
+
+\cvitem{Fall 2018}{\textbf{Alignment-free Methods for Phylogeny Reconstruction}, Bioinformatics fortnightly seminars by CBRC lab of Computer Science Department, Amirkabir University}
+\cvitem{Fall 2017}{\textbf{Reconstruction of Phylogenetic Trees Using a Novel Method}, Bioinformatics fortnightly seminars by CBRC lab of Computer Science Department, Amirkabir University}
+\cvitem{Spring 2016}{\textbf{Artificial Consciousness: Fact or Fiction?}, AI weekly seminars in Computer Science Department, Amirkabir University}
+
+\subsection{Staff Member}
+\cvitem{Fall 2017}{\textbf{International Computational Biology “ICoBi” Workshop}, Amirkabir University of Technology, Tehran, \small{presenter and executive committee member} }
+\cvitem{Fall 2018}{\textbf{Introduction to Bioinformatics and CS Workshop}, Held for high-school students in deprived areas in northern regions of Iran, to familiarize them with the interesting world of combined mathematics, computer science, statistics and biology}
+
+\subsection{Attended}
+\cvitem{Winter 2017}{\textbf{International Workshop on Clustering in R}, \textit{by Université Paris Decartes}, Amirkabir University of Technology, Tehran}
+\cvitem{Fall 2016}{\textbf{The 6th National Conference on Bioinformatics}, University of Tehran, Iran}
+
+
+%-------------------------------------------------------------------------------
+\section{Honors and Achievements}
+\cvitem{2019}{\textbf{Shortlisted to the IMPRS program symposia}, Max Planck Institute for the Science of Human History, Jena, Germany}
+\cvitem{2015}{\textbf{Ranked 78th (Top 3\%)}, National Graduate University Entrance Exam for Computer Sciences, Iran }
+\cvitem{2009}{\textbf{Ranked Top 1\%}, National University Entrance Exam (Konkur), Iran}
+\cvitem{2005}{\textbf{Ranked 13th}, National Scientific Olympiad of Middle Schools, Iran}
+\cvitem{2002--2009}{\textbf{Admitted to NODET schools for middle and high school levels}, (One out of every 400 contestants in the entrance exam was admitted), Tehran, Iran}
+
+
+
+\section{Selected Courses}
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+\subsection{Masters}
+\cvlistdoubleitem{Machine Learning: 19/20}{Image Processing: 19/20}
+\cvlistdoubleitem{Theory of Computation: 17.5/20}{Approximation Algorithms: 17.5/20}
+\cvlistdoubleitem{Advanced Artificial Intelligence: 18/20}{Biological Databases: 19/20}
+\cvlistitem{Advanced Bioinformatics: 17.75/20}
+
+\subsection{Bachelors}
+\cvlistdoubleitem{Bioinformatics: 18.25/20}{Internet Engineering: 17.5/20}
+\cvlistdoubleitem{Research Method: 178.9/20}{Graph Theory and Applications: 17.75/20}
+\cvlistdoubleitem{Programming Languages: 17/20}{Descrete Mathematics: 19/20}
+
+\subsection{Other}
+
+\cvlistitem{MongoDB (data-mining in NoSQL databases) \textit{Amirkabir University of Technology}, 40 hours course}
+\cvlistitem{ASP.net, \textit{Amirkabir University of Technology}, 48 hours course}
+\cvlistitem{Learning From Data (Machine Learning), \textit{Caltech}, EdX}
+\cvlistitem{Natural Language Processing with Deep Learning, \textit{Stanford  MOOC}}
+
+\cvlistitem{Computational Neuroscience, \textit{University of Washington}, Coursera}
+\cvlistitem{Introduction to Psychology, \textit{University of Toronto}, Coursera}
+
+
+\section{Selected Research and Projects}
+
+\cvitem{2018--2019}{\textbf{Alignment-free Phylogenetic  Reconstruction}, C/C++, Bash}
+\cvitem{2016--2017}{\textbf{ClusTree: A Method for Phylogenetic Tree Reconstruction}, Master Thesis Project, Perl}
+\cvitem{2017}{\textbf{Movie Recommender System using Collaborative Filtering}, ML course project, Python}
+\cvitem{2012}{\textbf{Simple 2D Car Game}, CG course project,C++/OpenGL}
+\cvitem{2011}{\textbf{Movie Database Website}, Database course project, HTML/CSS/PHP/SQL}
+
+
+
+\section{Research Interests}
+\renewcommand{\listitemsymbol}{~} % Changes the symbol used for lists
+\cvlistitem{Machine Learning, Probability Theory, Bioinformatics, Biostatistics, Computational Neuroscience, Cognitive Sciences, Linguistics}
+
+\section{Hobbies and Other Interests}
+\renewcommand{\listitemsymbol}{~} % Changes the symbol used for lists
+\cvlistitem{Finding Patterns (Data/Human Behavior/Life!), Psychology, Philosophy, Learning New Languages, Watching Movies (I’m a Cinemaniac!), Reading, Painting and Sketching, Music (I play the guitar)}
+
+
+%----------------------------------------------------------------------------------------
+%\section{References}
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%\cvlistitem{\textbf{Dr. Fatemeh Zare Mirakabad} \\ Assistant Professor of Computer Science \\ Faculty of Mathematics and Computer Science \\ Amirkabir University of Technology (Tehran Polytechnic) \\ f.zare@aut.ac.ir \\}
+%\cvlistitem{\textbf{Prof. Dr. Burkhard Morgenstern} \\ Professor of Bioinformatics \\ Institute of Microbiology and Genetics \\ Department of Bioinformatics \\ University of Göttingen \\ bmorgen@gwdg.de \\}
+%\cvlistitem{\textbf{Dr. Seyyed Naser Hashemi} \\ Assistant Professor of Computer Science \\ Faculty of Mathematics and Computer Science \\ Amirkabir University of Technology (Tehran Polytechnic) \\ nhashemi@aut.ac.ir}
+%
+
+\end{document}
